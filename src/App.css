@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+.board-row {
+  width: 150px;
+  height: 50px;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  line-height: 0; /* Add this line */
+  background: none;
+  border-radius: 0;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
